@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>jacky.workflow.rgb_convert_hex</string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>JackyXiong</string>
+	<key>description</key>
+	<string>This workflow is for converting rgb to hex.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>rgb_convert_hex</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>color</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>请等待</string>
+				<key>script</key>
+				<string>python core.py {query}</string>
+				<key>subtext</key>
+				<string>请输入颜色的 RGB 值 或 十六进制值</string>
+				<key>title</key>
+				<string>RGB TO HEX</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>9AEA1D03-1F30-4110-9894-653DD2B1E6CB</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This workflow is for converting rgb to hexadecimal</string>
+	<key>uidata</key>
+	<dict>
+		<key>9AEA1D03-1F30-4110-9894-653DD2B1E6CB</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>jackyxiong.github.io</string>
+</dict>
+</plist>
